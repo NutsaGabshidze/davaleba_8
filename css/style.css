@@ -1,0 +1,79 @@
+/* headers  */
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: rgb(212, 194, 229);
+}
+
+ul,
+header {
+  display: flex;
+}
+
+ul {
+  gap: 120px;
+}
+
+.first_header,
+h2 {
+  color: green;
+  margin-bottom: 15px;
+}
+
+.second_header {
+  color: red;
+  margin-bottom: 15px;
+}
+
+p {
+  color: brown;
+}
+
+footer {
+  background-color: rgb(212, 194, 229);
+  margin: 40px;
+  margin-right: 980px;
+  padding: 20px;
+}
+
+.footer_txt {
+  color: rgb(247, 6, 155);
+}
+
+#logo {
+  width: 200px;
+  height: 150px;
+}
+
+/* sections  */
+
+.second_section,
+.third_section,
+.fourth_section {
+  border-radius: 15px;
+  padding: 20px;
+  width: 800px;
+  margin: 20px auto;
+}
+
+.first_section {
+  border: 5px solid yellowgreen;
+}
+
+.second_section {
+  border: 5px solid blueviolet;
+}
+
+.third_section {
+  border: 5px solid orange;
+}
+
+/* sections end  */
+
+.map {
+  width: 800px;
+  height: 450px;
+  margin-top: 15px;
+}
